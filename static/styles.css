@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: montserrat;
+    background: Linear-gradient(125deg, #ed3cca, #00bfff, #34c924, #ffdc33, #ff2400);
+    background-size: 400% 400%;
+    animation: bganimate 15s infinite;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    min-height: 100vh;
+    font-size: 45px;
+}
+.wrapper p {
+    background: rgba(255, 255, 255, .2);
+    padding: 100px;
+}
+
+@keyframes bganimate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
